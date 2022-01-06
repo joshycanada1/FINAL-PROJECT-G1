@@ -263,7 +263,7 @@ header {
 	border-bottom-right-radius: 150px;
 	max-height: 250px;
 	padding: 20px 40px;
-	margin-top: 10px;
+	margin-top: 37px;
 }
 
 .intro .wikipedia-globe {
@@ -276,7 +276,7 @@ header {
   width: 170px;
   height: 250px;
   right: -60px;
-  top: 10px;
+  top: 37px;
   z-index: -1;
 }
 .wiki-content-responsive {
@@ -329,7 +329,7 @@ justify-content: center;
 }
 
 .searchButton {
-  width: 25px;
+  width: 20px;
   height: 46px;
   background: transparent;
   text-align: center;
@@ -477,5 +477,6 @@ justify-content: center;
 	.search-area-responsive{
 		padding-bottom: 0px;
 	}
+	.bg-gray-1200 {padding-left: 50px; padding-right: 50px;}
 }
 
