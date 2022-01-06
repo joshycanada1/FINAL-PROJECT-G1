@@ -347,6 +347,10 @@ justify-content: center;
 	background: #F1F1F1;
 	padding: 20px;
 }
+.apple-play {
+	display: none;
+}
+
 
 @media (max-width: 1200px) {
 	.intro .wiki-content-area {
@@ -377,12 +381,13 @@ justify-content: center;
 	}
 }
 
+
 @media (max-width: 991px) {
 	.navbar-collapse {
 		flex-basis: auto;
 	}
 	.navbar-nav {
-		display: inline-block;
+		display: none;
 	}
 	.navbar-nav li {
 		float: left;
@@ -416,6 +421,12 @@ justify-content: center;
 @media (max-width: 768px) {
 	header {
 		min-height: auto;
+	}
+	.apple-play {
+		display: inline-block;
+	}
+	.navbar-nav {
+		display: inline-block;
 	}
 	header .nav-login img {
 		max-width: 40px;
