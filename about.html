@@ -1,0 +1,700 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>Wikipedia</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+		<!-- Custom Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<!--============================= HEADER =============================-->
+		<header class="home-page-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-2 col-md-2">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<a href="index.html" class="d-lg-flex d-md-flex d-sm-block align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+								<img class="main-logo img-fluid" src="images/W-logo.png" alt="logo" width="45" style="margin-left: 15px;">
+							</a>
+
+						</nav>
+					</div>
+
+					<div class="col-3 col-md-6">
+						<div class="search">
+							<input type="text" class="searchTerm" placeholder="Type in your search here...">
+							<button type="submit" class="searchButton">
+								<img class="img-fluid" src="images/voice.png" alt="">
+							</button>
+						</div>
+					</div>
+
+					<div class="col-2 col-md-3">
+						<div class="float-end">
+							<button class="donate-now-btn">DONATE NOW</button>
+						</div>
+					</div>
+
+					<div class="col-2 col-md-1">
+						<div class=" navbar-collapse justify-content-end" id="">
+							<ul>
+								<li>
+									<a href="#" class="nav-link text-dark pt-0">
+										<img class="img-fluid" src="images/login.png" alt="login" width="35">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3 mt-3">
+					<div class="col-2 col-md-2 d-flex">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<p>Wiki Menu</p>
+						</nav>
+					</div>
+
+					<div class="col-3 col-md-6 d-flex">
+						<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+							<li><a href="#" class="nav-link ps-0 pl-0 link-dark">Main Page</a></li>
+							<li><a href="#" class="nav-link px-2 pe-5 link-dark">Talk</a></li>
+							<li><a href="#" class="nav-link px-2 ps-5 link-dark">Read</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">Source</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">History</a></li>
+						</ul>
+					</div>
+
+					<div class="col-2 col-md-3">
+						<div id="common_text_en fontlinks" style="float: right;padding-left: 0px;">
+							<a style="text-decoration: none;font-size: 12px;padding-right: 50px;" href="javascript:void(0)" class="decfont">A</a>
+							<a style="text-decoration: none;font-size: 16px;padding-right: 50px;" href="javascript:void(0)" class="decfont">A</a>
+							<a style="text-decoration: none;font-size: 20px;" href="javascript:void(0)" class="decfont">A</a>
+						</div>
+					</div>
+
+					<div class="col-2 col-md-1 d-flex">
+						<div class=" navbar-collapse justify-content-end" id="">
+							<ul>
+								<li>
+									<a href="#" class="nav-link text-dark py-0">
+										<img class="img-fluid" src="images/volume.png" alt="login" width="30">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--============================= HEADER  RESPONSIVE=============================-->
+		<header class="home-page-header-responsive">
+			<div class="container">
+				<div class="row">
+					<div class="col-2 col-md-2">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<a href="index.html" class="d-lg-flex d-md-flex d-sm-block align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+								<img class="main-logo img-fluid" src="images/W-logo.png" alt="logo" width="45" style="margin-left: 15px;">
+							</a>
+
+						</nav>
+					</div>
+
+					<div class="col-3 col-md-8">
+						<div class="search">
+							<input type="text" class="searchTerm" placeholder="Type in your search here...">
+							<button type="submit" class="searchButton">
+								<img class="img-fluid" src="images/voice.png" alt="" width="15">
+							</button>
+						</div>
+					</div>
+
+
+					<div class="col-2 col-md-1 d-flex">
+						<div class=" navbar-collapse justify-content-end" id="">
+							<ul>
+								<li>
+									<a href="#" class="nav-link text-dark px-0">
+										<img class="img-fluid" src="images/volume.png" alt="login" width="30">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-2 col-md-1">
+						<div class=" navbar-collapse justify-content-end" id="">
+							<ul>
+								<li>
+									<a href="#" class="nav-link text-dark px-0">
+										<img class="img-fluid" src="images/login.png" alt="login" width="35">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3 mt-3">
+					<div class="col-5 col-md-5">
+						<div id="common_text_en fontlinks" style="float: left;padding-left: 0px;">
+							<a style="text-decoration: none;font-size: 12px;padding-right: 50px;" href="javascript:void(0)" class="decfont">A</a>
+							<a style="text-decoration: none;font-size: 16px;padding-right: 50px;" href="javascript:void(0)" class="decfont">A</a>
+							<a style="text-decoration: none;font-size: 20px;" href="javascript:void(0)" class="decfont">A</a>
+						</div>
+					</div>
+
+					<div class="col-7 col-md-7 float-end">
+						<div class="float-end">
+							<button class="donate-now-btn float-end">DONATE NOW</button>
+						</div>
+					</div>
+
+
+					<div class="col-12 col-md-12 d-flex">
+						<ul class="nav col-12 col-md-12 mb-2 justify-content-center mb-md-0 mt-4">
+							<li><a href="#" class="nav-link ps-0 link-secondary pl-0 pe-5">Wiki Menu</a></li>
+
+							<li><a href="#" class="nav-link ps-0 link-secondary pl-0">Main Page</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">Talk</a></li>
+							<li><a href="#" class="nav-link px-2 pe-5 link-dark">Read</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">Source</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">History</a></li>
+						</ul>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="navbar navbar-expand-lg navbar-light bg-gray mt-2 tab-head">
+								<div class="d-flex navbar-collapse justify-content-center align-items-center" id="">
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<a class="nav-link" href="#">The Arts</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Biography</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Geograhy</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">History</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Nature</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Science</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">All Portals</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!--============================= HEADER  RESPONSIVE MOBILE =============================-->
+		<header class="home-page-header-responsive-mob">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<div class="container-fluid">
+								<a class="navbar-brand" href="index.html"><img class="main-logo img-fluid" src="images/W-logo.png" alt="logo" width="45" style="margin-left: 15px;"></a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarScroll">
+									<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+										<li class="nav-item">
+											<a class="nav-link active" aria-current="page" href="#">Home</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Link</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Link
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+												<li><a class="dropdown-item" href="#">Action</a></li>
+												<li><a class="dropdown-item" href="#">Another action</a></li>
+												<li><hr class="dropdown-divider"></li>
+												<li><a class="dropdown-item" href="#">Something else here</a></li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+										</li>
+									</ul>
+									<form class="d-flex">
+										<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+										<button class="btn btn-outline-success" type="submit">Search</button>
+									</form>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+
+				<div class="row mb-3 mt-3">
+					
+					<div class="col-7 col-md-7 float-end">
+						<div class="float-end">
+							<button class="donate-now-btn float-end">DONATE NOW</button>
+						</div>
+					</div>
+
+
+					<div class="col-12 col-md-12 d-flex bg-gray">
+						<ul class="nav col-12 col-md-12 mb-2 justify-content-center mb-md-0 mt-2">
+							<li><a href="#" class="nav-link ps-0 link-secondary pl-0">Main Page</a></li>
+							<li><a href="#" class="nav-link px-2 link-dark">All Portals</a></li>
+							<li style="padding-left: 50px;"><img class="img-fluid float-end" src="images/search.png" alt="login" width="44"></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</header>
+
+		<header class="bg-gray home-page-header pt-0" style="background: #f1f1f1">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar navbar-expand-lg navbar-light ">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSideCollapse" aria-controls="navbarSideCollapse" aria-expanded="true" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-center" id="navbarSideCollapse">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="#">The Arts</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Biography</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Geograhy</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">History</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Nature</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Science</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Society</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Technology</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">People</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">All Portals</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--//END HEADER -->
+
+
+		<section class="blog-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-section text-center">
+							<h1>Welcome to Wikipedia</h1>
+							<p>the free encyclopedia that anyone can edit. 6,425,994 articles in English</p>
+						</div>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="blog-box">
+							
+							<div class="iso-call">
+								<div class="item">
+									<div class="news-post article-post">
+										<h2>From today's featured article</h2>
+										<p><span style="color: #3366CC;">Sesame Street research</span> concerns the children's television show Sesame Street, which premiered in 1969. Unlike earlier children's programming, producers used research and more than 1,000 studies and experiments to create the show and test its impact on its young viewers' learning. By the end of the program's first season, the organization founded to oversee Sesame Street production, Children's Television Workshop (CTW), had developed what came to be called the "CTW model": a system of planning, production, and evaluation that combined the expertise of researchers and early childhood educators with that of the program's writers, producers, and directors. CTW utilized independent summative evaluations conducted by the Educational Testing Service during the show's first two seasons to measure the program's educational effectiveness. Based on these findings, the researchers compiled a body of data and the producers changed the show accordingly. The formative research on Sesame Street was the first time children's television viewing was studied scientifically. <a href="#" style="color: #3366CC;">(Full article...)</a></p>
+									</div>
+
+									<div class="news-footer">
+										<span>Recently Featured :</span>
+										<ul>
+											<li>Battle of Panormus</li>
+											<li>Piano Sonata No. 31 (Beethoven)</li>
+											<li>Soiscél Molaisse</li>
+										</ul>
+									</div>
+									<div class="news-footer news-footer2">
+										<ul>
+											<li><a href="#">Archive</a></li>
+											<li><a href="#">By Email</a></li>
+											<li><a href="#">More featured articles</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mt-4">
+									<div class="news-post article-post row">
+										<div class="col-lg-8 col-md-8">
+											<h2>Did you know ...</h2>
+											<ul>
+												<li>... that William Rounseville Alger's (pictured) 1857 Fourth of July speech was so controversial that the city of Boston refused to print it for seven years?</li>
+												<li>... that Herrscher des Himmels, erhöre das Lallen, a Bach cantata for the Third Day of Christmas, contains the only aria that he newly composed for the oratorio?</li>
+												<li>... that the bridge from which James Bond leapt in No Time to Die is actually an aqueduct?</li>
+												<li>... that despite the support of the British authorities, the multi-racial United Tanganyika Party was unsuccessful, with the African-nationalist TANU winning a majority in the 1958–59 election?</li>
+												<li>... that Maine state legislator Tracy Quint introduced a bill that would have banned all COVID-19 vaccination mandates in Maine until 2024?</li>
+												<li>... that in 1874, thousands of Russian students "[went] to the people" to agitate the peasantry towards socialism?</li>
+												<li>... that a 1939 thesis by Nathaniel Fadipe, The Sociology of the Yoruba, was the first sociological study by a black African?</li>
+												<li>... that the original author of Half-Life: Full Life Consequences wanted it to be so bad that "it stands the test of time as one of the worst things ever written"?</li>
+											</ul>
+										</div>
+
+										<div class="col-lg-4 col-md-4">
+											<div class="image-holder">
+												<img class="img-fluid" src="images/william.png" alt="">
+											</div>
+										</div>
+									</div>
+
+									<div class="news-post article-post row">
+										<div class="col-lg-12">
+											<div class="news-footer news-footer2 float-end">
+												<ul>
+													<li><a href="#">Archive</a></li>
+													<li><a href="#">Start a new article</a></li>
+													<li><a href="#">Nominate an article</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="news-post article-post">
+										<h2>From today's featured list</h2>
+										<p>The<span style="color: #3366CC;"> men's individual time trial event</span> at the UCI Road World Championships is the men's world championship for the road bicycle racing discipline of time trial. Introduced in 1994 by the Union Cycliste Internationale (UCI), the world's governing body of cycling, the event consists of a time trial covering a distance of approximately 45 kilometres (28 mi) over flat or rolling terrain. Riders start separated by two-minute intervals; the one that completes the course in the shortest time is the winner, and is entitled to wear the rainbow jersey (pictured) in time trial events for the forthcoming season. Switzerland's Fabian Cancellara (2006, 2007, 2009 and 2010) and Germany's Tony Martin (2011, 2012, 2013 and 2016) have won the most competitions with four each. Australia's Michael Rogers (2003, 2004 and 2005) comes in next in terms of victories, with three wins; Rogers and Martin are the only people to take 3 wins in successive years. The current male champion is Italian rider Filippo Ganna, who won the 2021 event. <a href="#" style="color: #3366CC;">(Full list...)</a></p>
+									</div>
+
+									<div class="news-footer">
+										<span>Recently Featured :</span>
+										<ul>
+											<li>Simon & Garfunkel discography</li>
+											<li>Moons of Uranus</li>
+											<li>Philo T. Farnsworth Award</li>
+										</ul>
+									</div>
+									<div class="news-footer news-footer2">
+										<ul>
+											<li><a href="#">Archive</a></li>
+											<li><a href="#">More featured lists</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mb-5">
+									<div class="news-post article-post">
+										<h2>Today's featured picture</h2>
+										<div class="image-holder">
+											<img class="img-fluid" src="images/featured-pic.png">
+											<p style="color: #3366CC;">Photograph credit: Charles James Sharp</p>
+										</div>
+										<p>The south-western black rhinoceros (Diceros bicornis occidentalis) is a subspecies of the black rhinoceros found primarily in Namibia. The chief threat it faces is from illegal poaching for its valuable horn. It is listed as near threatened by the International Union for Conservation of Nature. The total population is increasing, and numbered 1,920 animals in 2010. This female south-western black rhinoceros was photographed in Etosha National Park, Namibia.</p>
+									</div>
+
+									<div class="news-footer">
+										<span>Recently Featured :</span>
+										<ul>
+											<li> Santo Stanislao dei Polacchi</li>
+											<li>Melun Diptych</li>
+											<li>Jenny Nyström</li>
+										</ul>
+									</div>
+									<div class="news-footer news-footer2">
+										<ul>
+											<li><a href="#">Archive</a></li>
+											<li><a href="#">More featured pictures</a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="sidebar">
+							<div class="widget social-widget text-center">
+								<h2>In the news</h2>
+								<div class="image-holder">
+									<img class="img-fluid" src="images/desmond.png" alt="">
+								</div>
+
+								<ul class="sidebar-ul">
+									<li>South African archbishop and human rights activist Desmond Tutu (pictured) dies at the age of 90.</li>
+									<li>Ariane flight VA256, carrying the James Webb Space Telescope, is launched from the Guiana Space Centre.</li>
+									<li>A ferry fire in Bangladesh kills at least 40 people.</li>
+									<li>Floods in Malaysia leave at least 46 people dead and displace more than 68,000 others.</li>
+									<li>At least 85 people are killed in a shipwreck off the coast of Madagascar.</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="sidebar sidebar-2">
+							<div class="widget social-widget text-center">
+								<div class="news-footer mt-4">
+									<span>Recent deaths :</span>
+									<ul>
+										<li>Janice Long</li>
+										<li>Frans Lebu Raya</li>
+									</ul>
+									<ul>
+										<li>Poh Lip Meng</li>
+										<li>Madhur Kapila</li>
+										<li>George Alexander</li>
+									</ul>
+								</div>
+
+								<div class="news-footer news-footer2 text-end">
+									<span class="text-right">Ongoing : <a style="color: #3366CC;"> COVID-19 pandemic</a></span>
+								</div>
+
+								<div class="news-footer text-end bg-gray mt-3" style="background: #F1F1F1;padding: 10px;">
+									<ul>
+										<li style="color:#3366CC">Nominate an article</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="sidebar mt-4">
+							<div class="widget social-widget text-center">
+								<h2>On this day</h2>
+								<div class="image-holder">
+									<img class="img-fluid" src="images/onthis-day.png" alt="">
+									<p>December 27</p>
+								</div>
+
+								<ul class="sidebar-ul">
+									<li>1521 – A period of unrest in Wittenberg, Saxony, following the arrival of the Zwickau prophets, was quelled after the release of Martin Luther from custody.</li>
+									<li>1845 – John L. O'Sullivan, in his newspaper the New York Morning News, argued that the United States had the right to claim the entire Oregon Country "by the right of our manifest destiny", popularizing the term's use.</li>
+									<li>1904 – The stage play Peter Pan; or, The Boy Who Wouldn't Grow Up, by Scottish author J. M. Barrie, premiered in London.</li>
+									<li>1929 – Joseph Stalin announced the "liquidation of the kulaks as a class", beginning a period of political repression against prosperous peasants (poster pictured).</li>
+									<li>2007 – Riots erupted in Mombasa, Kenya, after Mwai Kibaki was declared the winner of the presidential election—the first event in a political, economic, and humanitarian crisis.</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="sidebar sidebar-2">
+							<div class="widget social-widget text-center">
+								<div class="news-footer mt-4">
+									<ul>
+										<li>Anne de Mortimer (b. 1388)</li>
+										<li>Ghalib (b. 1797)</li>
+									</ul>
+									<ul >
+										<li class="text-center">Amy Vanderbilt (d. 1974)</li>
+									</ul>
+
+									<ul >
+										<li class="text-center">December 26</li>
+										<li class="text-center"><strong>December 27</strong></li>
+										<li class="text-center">December 28</li>
+
+									</ul>
+								</div>
+
+								
+
+								<div class="news-footer text-end bg-gray mt-3" style="background: #F1F1F1;padding: 10px;">
+									<ul>
+										<li style="color:#3366CC">Archive</li>
+										<li style="color:#3366CC">By email</li>
+										<li style="color:#3366CC">List of days of the year</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<div class="container blog-section">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-section text-left">
+						<h2>Other areas of Wikipedia</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="blog-section bg-gray p-lg-5">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-4">
+						<div class="blog-box">
+							<div class="iso-call">
+								<div class="item mt-4">
+									<div class="news-post article-post">
+										<ul>
+											<li>Community portal</li>
+											<li>Help desk</li>
+											<li>Reference desk </li>
+											<li>Site news</li>
+											<li>Teahouse</li>
+											<li>Village pump </li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="blog-box">
+							<div class="iso-call">
+								<div class="item mt-4 mb-4">
+									<div class="news-post article-post1">
+										<ul>
+											<li>– Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</li>
+											<li>– Ask questions about using Wikipedia.</li>
+											<li>– Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.</li>
+											<li>– Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.</li>
+											<li>– To ask your first basic questions about contributing to Wikipedia.</li>
+											<li>– For discussions about Wikipedia itself, including areas for technical issues and policies.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="logo-carousel mt-5 pb-5">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-5">
+						<p class="mt-1">Privacy policy | About Wikipedia | Disclaimers | Contact Wikipedia </p>
+						<p class="mt-4">Developers | Statistics | Cookie statement | Edit preview settings</p>
+
+						<ul class="navbar-nav apple-play-about mb-4 d-none d-md-block">
+							<li>
+								<a href="#"><img class="img-fluid" src="images/google-play.png" alt="logo"></a>
+							</li>
+							<li>
+								<a href="#"><img class="img-fluid" src="images/apple-store.png" alt="logo"></a>
+							</li>
+						</ul>
+
+						<div class="col-lg-12 col-md-12 col-sm-12 position-relative">
+							<div class="mt-4 mb-4 navbar-collapse justify-content-end text-center" id="">
+								<ul class="navbar-nav apple-play">
+									<li>
+										<a href="index.html"><img class="img-fluid" src="images/playstore.png" alt="logo"></a>
+									</li>
+									<li>
+										<a href="index.html"><img class="img-fluid" src="images/apple.png" alt="logo"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-7 row">
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/1.png" alt="">
+						</div>
+
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/2.png" alt="">
+						</div>
+
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/3.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/4.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/5.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/6.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/7.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/8.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/9.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/10.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/11.png" alt="">
+						</div>
+						<div class="col-2 col-md-2 d-flex align-items-center">
+							<img class="img-fluid" src="images/12.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<p style="font-size: 14px;" class="mt-3 mb-3 text-center">Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>
