@@ -408,7 +408,7 @@ header {
 	margin-top: 5px;
 }
 .donate-now-btn {
-	background: #F1F1F1;
+	background: #F1F1F1;s
 	float: none !important;
 	display: block;
 	width: 193px;
@@ -416,9 +416,9 @@ header {
 	border-radius: 10px;
 	font-size: 14px;
 	text-align: center;
-	border: 1px solid #ad2121;
-	background: #F1F1F1;
-	color: #4A4A4A;
+	border: 1px solid #4A4A4A;
+	background: #3366CC;
+	color: #ffffff;
 	margin: 0 auto;
 }
 
